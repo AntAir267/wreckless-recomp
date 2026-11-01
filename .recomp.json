@@ -5,7 +5,7 @@
   "wikidata": "Q8037704",
   "original": { "region": "USA" },
   "project": "wreckless-recomp",
-  "status": "in-progress",
+  "status": "released",
   "started": "2026-10-26",
   "targets": ["Linux"],
   "toolchain": "Xboxrecomp",
