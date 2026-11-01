@@ -1,0 +1,10 @@
+[
+ {
+  "start": "0x0010E9C3",
+  "note": "D3DX callback (its address is taken at 0x0010EA7E) that follows a call to longjmp (0x000F0EBC) and a dead pop esi. The fork's imm_ref pass now rejects a target that code falls through into, which catches this one too: it is the one real function among the nine the rule dropped (checked by hand)."
+ },
+ {
+  "start": "0x000F2CB2",
+  "note": "CRT x87 error path: 0x000F2AA8 and sub_000F2AB4 jump to 0x000F2CB2, the second instruction of sub_000F2CB0 (fstp st0; fstp st0; fldz; ret). The same shape as Double-S.T.E.A.L 2's 0x0011E75A: seeding splits the 7-byte helper with a fall-through tail call; unseeded the jump was a stub that skipped the fstp/fldz."
+ }
+]

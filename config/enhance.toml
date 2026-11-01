@@ -1,0 +1,43 @@
+# Wreckless: The Yakuza Missions - enhancement settings.
+#
+# Read at start from beside the executable. The environment overrides a
+# key here (RECOMP_RENDER_SCALE for render.scale, and so on); the runtime's
+# docs/runtime/enhance-config.md lists them all. A key left out runs the
+# game as the console did.
+#
+# The game has no HD or widescreen mode of its own: it never reads the
+# dashboard's video flags (NOTES.md, "Video modes"), so display.hdtv and
+# display.widescreen would change nothing here; game.widescreen is this
+# port's.
+
+[render]
+# Draw the 3D at twice the console's 640x480 (supersampled into the frame).
+scale = 2
+
+[graphics]
+# Anisotropic filtering of mipmapped textures: sharper roads at a glance.
+aniso = "16"
+aa = "off"
+
+[game]
+# true: brighter midtones, as a capture of the Xbox game measures; false
+# (the console's own output, dark menus and all, as on a real Xbox).
+tv_picture = false
+# The menus a little brighter than the console draws them (missions and
+# cutscenes unchanged); false: as the console.
+menu_brightness = true
+# Missions, replays and cutscenes in 16:9 (a wider view, the HUD in its
+# own shape, the menus 4:3); false: 4:3 as the console.
+widescreen = true
+
+[present]
+# How the window scales the frame: "nearest", "linear" or "integer".
+filter = "linear"
+# How a frame waits for its vblank (the Power page's mode): "sleep" with
+# spin_lead 8 is Balanced (sleeps, then spins the last 8 ms). With it the
+# main thread sleeps through D3D's KickOff wait instead of spinning
+# (config/spin_waits.json): a quarter of a core less, frames as steady.
+# "spin" busy-waits the whole wait (the runtime's stock).
+pacing = "sleep"
+spin_lead = 8
+fullscreen = false

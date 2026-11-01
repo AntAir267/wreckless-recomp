@@ -1,0 +1,458 @@
+[
+ {
+  "start": "0x000129F0",
+  "note": "upstream v0.16 (imm_ref_target); clean start (in a gap)"
+ },
+ {
+  "start": "0x00012BE0",
+  "note": "upstream v0.16 (gap_prologue), Ghidra; clean start (in a gap)"
+ },
+ {
+  "start": "0x00013720",
+  "note": "upstream v0.16 (gap_prologue), Ghidra; clean start (inside sub_00013690, which never branches to it)"
+ },
+ {
+  "start": "0x00013A00",
+  "note": "upstream v0.16 (gap_prologue); clean start (inside sub_00013690, which never branches to it)"
+ },
+ {
+  "start": "0x00014230",
+  "note": "upstream v0.16 (gap_prologue); clean start (inside sub_000141E0, which never branches to it)"
+ },
+ {
+  "start": "0x000144A0",
+  "note": "upstream v0.16 (gap_prologue), Ghidra; clean start (inside sub_000141E0, which never branches to it)"
+ },
+ {
+  "start": "0x00014BA0",
+  "note": "upstream v0.16 (gap_prologue); clean start (in a gap)"
+ },
+ {
+  "start": "0x00014E40",
+  "note": "upstream v0.16 (gap_prologue), Ghidra; clean start (in a gap)"
+ },
+ {
+  "start": "0x00016E70",
+  "note": "upstream v0.16 (imm_ref_target); clean start (in a gap)"
+ },
+ {
+  "start": "0x0001B830",
+  "note": "Ghidra; clean start (in a gap)"
+ },
+ {
+  "start": "0x00022A80",
+  "note": "upstream v0.16 (gap_prologue); clean start (in a gap)"
+ },
+ {
+  "start": "0x00026E00",
+  "note": "upstream v0.16 (gap_prologue); clean start (inside sub_00026D90, which never branches to it)"
+ },
+ {
+  "start": "0x00032800",
+  "note": "upstream v0.16 (gap_prologue), Ghidra; clean start (inside sub_000327D0, which never branches to it)"
+ },
+ {
+  "start": "0x0005EC90",
+  "note": "upstream v0.16 (gap_prologue), Ghidra; clean start (in a gap)"
+ },
+ {
+  "start": "0x0005EDE0",
+  "note": "upstream v0.16 (gap_prologue); clean start (inside sub_0005EDA0, which never branches to it)"
+ },
+ {
+  "start": "0x00070310",
+  "note": "upstream v0.16 (gap_prologue); clean start (inside sub_00070280, which never branches to it)"
+ },
+ {
+  "start": "0x00070450",
+  "note": "upstream v0.16 (gap_prologue); clean start (inside sub_00070280, which never branches to it)"
+ },
+ {
+  "start": "0x00070C10",
+  "note": "upstream v0.16 (gap_prologue); clean start (inside sub_00070B50, which never branches to it)"
+ },
+ {
+  "start": "0x00071100",
+  "note": "upstream v0.16 (gap_prologue); clean start (inside sub_00070B50, which never branches to it)"
+ },
+ {
+  "start": "0x000719F0",
+  "note": "upstream v0.16 (gap_prologue); clean start (inside sub_00071920, which never branches to it)"
+ },
+ {
+  "start": "0x00072690",
+  "note": "upstream v0.16 (gap_prologue); clean start (in a gap)"
+ },
+ {
+  "start": "0x00072840",
+  "note": "upstream v0.16 (gap_prologue); clean start (in a gap)"
+ },
+ {
+  "start": "0x00072950",
+  "note": "upstream v0.16 (gap_prologue); clean start (in a gap)"
+ },
+ {
+  "start": "0x00072F00",
+  "note": "upstream v0.16 (gap_prologue); clean start (in a gap)"
+ },
+ {
+  "start": "0x00073750",
+  "note": "upstream v0.16 (gap_prologue); clean start (in a gap)"
+ },
+ {
+  "start": "0x00074760",
+  "note": "upstream v0.16 (gap_prologue); clean start (inside sub_00074690, which never branches to it)"
+ },
+ {
+  "start": "0x00074870",
+  "note": "upstream v0.16 (gap_prologue); clean start (inside sub_00074690, which never branches to it)"
+ },
+ {
+  "start": "0x00075470",
+  "note": "upstream v0.16 (gap_prologue); clean start (inside sub_000752F0, which never branches to it)"
+ },
+ {
+  "start": "0x00075DC0",
+  "note": "upstream v0.16 (gap_prologue); clean start (in a gap)"
+ },
+ {
+  "start": "0x000760A0",
+  "note": "upstream v0.16 (gap_prologue); clean start (inside sub_00076050, which never branches to it)"
+ },
+ {
+  "start": "0x000761B0",
+  "note": "upstream v0.16 (gap_prologue); clean start (inside sub_00076050, which never branches to it)"
+ },
+ {
+  "start": "0x00077010",
+  "note": "upstream v0.16 (gap_prologue); clean start (inside sub_00076FA0, which never branches to it)"
+ },
+ {
+  "start": "0x000778B0",
+  "note": "upstream v0.16 (gap_prologue); clean start (inside sub_00077850, which never branches to it)"
+ },
+ {
+  "start": "0x00077B30",
+  "note": "upstream v0.16 (gap_prologue); clean start (inside sub_00077850, which never branches to it)"
+ },
+ {
+  "start": "0x00078CF0",
+  "note": "upstream v0.16 (gap_prologue); clean start (inside sub_00078CD0, which never branches to it)"
+ },
+ {
+  "start": "0x00078F10",
+  "note": "upstream v0.16 (gap_prologue); clean start (inside sub_00078CD0, which never branches to it)"
+ },
+ {
+  "start": "0x00079980",
+  "note": "upstream v0.16 (gap_prologue); clean start (in a gap)"
+ },
+ {
+  "start": "0x00079AA0",
+  "note": "upstream v0.16 (gap_prologue), Ghidra; clean start (in a gap)"
+ },
+ {
+  "start": "0x0007A490",
+  "note": "upstream v0.16 (gap_prologue); clean start (inside sub_0007A470, which never branches to it)"
+ },
+ {
+  "start": "0x0007AA50",
+  "note": "upstream v0.16 (gap_prologue); clean start (inside sub_0007A930, which never branches to it)"
+ },
+ {
+  "start": "0x0007BA80",
+  "note": "upstream v0.16 (gap_prologue); clean start (inside sub_0007B9F0, which never branches to it)"
+ },
+ {
+  "start": "0x0007C690",
+  "note": "upstream v0.16 (gap_prologue); clean start (inside sub_0007C670, which never branches to it)"
+ },
+ {
+  "start": "0x0007D720",
+  "note": "upstream v0.16 (gap_prologue); clean start (inside sub_0007D6C0, which never branches to it)"
+ },
+ {
+  "start": "0x0007D9C0",
+  "note": "upstream v0.16 (gap_prologue), Ghidra; clean start (in a gap)"
+ },
+ {
+  "start": "0x0007EC10",
+  "note": "upstream v0.16 (gap_prologue); clean start (inside sub_0007EBF0, which never branches to it)"
+ },
+ {
+  "start": "0x0007F0A0",
+  "note": "upstream v0.16 (gap_prologue); clean start (inside sub_0007F080, which never branches to it)"
+ },
+ {
+  "start": "0x000802E0",
+  "note": "upstream v0.16 (gap_prologue); clean start (in a gap)"
+ },
+ {
+  "start": "0x00080440",
+  "note": "upstream v0.16 (gap_prologue); clean start (inside sub_000803E0, which never branches to it)"
+ },
+ {
+  "start": "0x00080AB0",
+  "note": "upstream v0.16 (gap_prologue); clean start (inside sub_00080A00, which never branches to it)"
+ },
+ {
+  "start": "0x000852A0",
+  "note": "upstream v0.16 (gap_prologue), Ghidra; clean start (in a gap)"
+ },
+ {
+  "start": "0x00090250",
+  "note": "upstream v0.16 (gap_prologue), Ghidra; clean start (in a gap)"
+ },
+ {
+  "start": "0x0009CF90",
+  "note": "upstream v0.16 (gap_prologue); clean start (inside sub_0009CF50, which never branches to it)"
+ },
+ {
+  "start": "0x0009E7A0",
+  "note": "upstream v0.16 (gap_prologue); clean start (inside sub_0009E450, which never branches to it)"
+ },
+ {
+  "start": "0x0009EB20",
+  "note": "upstream v0.16 (gap_prologue); clean start (inside sub_0009E450, which never branches to it)"
+ },
+ {
+  "start": "0x0009F5E0",
+  "note": "upstream v0.16 (gap_prologue); clean start (in a gap)"
+ },
+ {
+  "start": "0x000A67E0",
+  "note": "upstream v0.16 (gap_prologue), Ghidra; clean start (in a gap)"
+ },
+ {
+  "start": "0x000A7880",
+  "note": "upstream v0.16 (gap_prologue); clean start (in a gap)"
+ },
+ {
+  "start": "0x000A85C0",
+  "note": "upstream v0.16 (gap_prologue); clean start (in a gap)"
+ },
+ {
+  "start": "0x000DB5D0",
+  "note": "upstream v0.16 (gap_prologue), Ghidra; clean start (in a gap)"
+ },
+ {
+  "start": "0x000DD100",
+  "note": "upstream v0.16 (gap_prologue); clean start (in a gap)"
+ },
+ {
+  "start": "0x000DD150",
+  "note": "upstream v0.16 (gap_prologue); clean start (in a gap)"
+ },
+ {
+  "start": "0x000DD1C0",
+  "note": "upstream v0.16 (gap_prologue); clean start (in a gap)"
+ },
+ {
+  "start": "0x000DD260",
+  "note": "upstream v0.16 (gap_prologue), Ghidra; clean start (in a gap)"
+ },
+ {
+  "start": "0x000DD3F0",
+  "note": "upstream v0.16 (gap_prologue); clean start (in a gap)"
+ },
+ {
+  "start": "0x000DD730",
+  "note": "upstream v0.16 (gap_prologue); clean start (in a gap)"
+ },
+ {
+  "start": "0x000DDAE0",
+  "note": "upstream v0.16 (gap_prologue), Ghidra; clean start (in a gap)"
+ },
+ {
+  "start": "0x000DDDC0",
+  "note": "upstream v0.16 (tail_jump_target); clean start (in a gap)"
+ },
+ {
+  "start": "0x000DE0E0",
+  "note": "upstream v0.16 (gap_prologue); clean start (in a gap)"
+ },
+ {
+  "start": "0x000DF100",
+  "note": "upstream v0.16 (gap_prologue); clean start (inside sub_000DF0F0, which never branches to it)"
+ },
+ {
+  "start": "0x000E1720",
+  "note": "upstream v0.16 (gap_prologue), Ghidra; clean start (in a gap)"
+ },
+ {
+  "start": "0x000E8850",
+  "note": "upstream v0.16 (imm_ref_target); clean start (in a gap)"
+ },
+ {
+  "start": "0x000F84F0",
+  "note": "upstream v0.16 (gap_prologue), Ghidra; clean start (in a gap)"
+ },
+ {
+  "start": "0x000F8500",
+  "note": "Ghidra; clean start (in a gap)"
+ },
+ {
+  "start": "0x000F8510",
+  "note": "Ghidra; clean start (in a gap)"
+ },
+ {
+  "start": "0x000F8520",
+  "note": "Ghidra; clean start (in a gap)"
+ },
+ {
+  "start": "0x000F8530",
+  "note": "Ghidra; clean start (in a gap)"
+ },
+ {
+  "start": "0x000F8540",
+  "note": "Ghidra; clean start (in a gap)"
+ },
+ {
+  "start": "0x000F8550",
+  "note": "Ghidra; clean start (in a gap)"
+ },
+ {
+  "start": "0x000F8560",
+  "note": "Ghidra; clean start (in a gap)"
+ },
+ {
+  "start": "0x000F85C0",
+  "note": "Ghidra; clean start (in a gap)"
+ },
+ {
+  "start": "0x000F85D0",
+  "note": "Ghidra; clean start (in a gap)"
+ },
+ {
+  "start": "0x000F85E0",
+  "note": "Ghidra; clean start (in a gap)"
+ },
+ {
+  "start": "0x000F85F0",
+  "note": "Ghidra; clean start (in a gap)"
+ },
+ {
+  "start": "0x000F8600",
+  "note": "Ghidra; clean start (in a gap)"
+ },
+ {
+  "start": "0x000F86B0",
+  "note": "upstream v0.16 (gap_prologue), Ghidra; clean start (in a gap)"
+ },
+ {
+  "start": "0x000F8720",
+  "note": "upstream v0.16 (gap_prologue), Ghidra; clean start (in a gap)"
+ },
+ {
+  "start": "0x000F8760",
+  "note": "upstream v0.16 (tail_jump_alias); clean start (in a gap)"
+ },
+ {
+  "start": "0x000F8790",
+  "note": "upstream v0.16 (gap_prologue), observed by sp00nznet/wreckless's runs; clean start (in a gap)"
+ },
+ {
+  "start": "0x000F87C0",
+  "note": "upstream v0.16 (gap_prologue), observed by sp00nznet/wreckless's runs; clean start (in a gap)"
+ },
+ {
+  "start": "0x000F8B00",
+  "note": "upstream v0.16 (gap_prologue), observed by sp00nznet/wreckless's runs; clean start (in a gap)"
+ },
+ {
+  "start": "0x000F8B40",
+  "note": "upstream v0.16 (tail_jump_alias), observed by sp00nznet/wreckless's runs; clean start (in a gap)"
+ },
+ {
+  "start": "0x000F8BE0",
+  "note": "upstream v0.16 (gap_prologue), observed by sp00nznet/wreckless's runs; clean start (in a gap)"
+ },
+ {
+  "start": "0x000F8D50",
+  "note": "upstream v0.16 (gap_prologue), observed by sp00nznet/wreckless's runs; clean start (in a gap)"
+ },
+ {
+  "start": "0x000F8E00",
+  "note": "upstream v0.16 (gap_prologue), observed by sp00nznet/wreckless's runs; clean start (in a gap)"
+ },
+ {
+  "start": "0x000F8E60",
+  "note": "upstream v0.16 (gap_prologue), observed by sp00nznet/wreckless's runs; clean start (in a gap)"
+ },
+ {
+  "start": "0x000F8ED0",
+  "note": "upstream v0.16 (gap_prologue), observed by sp00nznet/wreckless's runs; clean start (in a gap)"
+ },
+ {
+  "start": "0x000F9720",
+  "note": "upstream v0.16 (gap_prologue), observed by sp00nznet/wreckless's runs; clean start (in a gap)"
+ },
+ {
+  "start": "0x000F9750",
+  "note": "upstream v0.16 (gap_prologue), observed by sp00nznet/wreckless's runs; clean start (in a gap)"
+ },
+ {
+  "start": "0x000F97C0",
+  "note": "upstream v0.16 (gap_prologue), observed by sp00nznet/wreckless's runs; clean start (in a gap)"
+ },
+ {
+  "start": "0x000F9830",
+  "note": "upstream v0.16 (gap_prologue), observed by sp00nznet/wreckless's runs; clean start (in a gap)"
+ },
+ {
+  "start": "0x000F9850",
+  "note": "upstream v0.16 (gap_prologue), observed by sp00nznet/wreckless's runs; clean start (in a gap)"
+ },
+ {
+  "start": "0x000F9870",
+  "note": "upstream v0.16 (gap_prologue), observed by sp00nznet/wreckless's runs; clean start (in a gap)"
+ },
+ {
+  "start": "0x000F9890",
+  "note": "upstream v0.16 (gap_prologue), observed by sp00nznet/wreckless's runs; clean start (in a gap)"
+ },
+ {
+  "start": "0x000F98F0",
+  "note": "upstream v0.16 (gap_prologue), observed by sp00nznet/wreckless's runs; clean start (in a gap)"
+ },
+ {
+  "start": "0x0010F34B",
+  "note": "upstream v0.16 (imm_ref_target); clean start (in a gap)"
+ },
+ {
+  "start": "0x00147AE3",
+  "note": "upstream v0.16 (tail_jump_alias), observed by sp00nznet/wreckless's runs; clean start (in a gap)"
+ },
+ {
+  "start": "0x00148292",
+  "note": "upstream v0.16 (tail_jump_alias), observed by sp00nznet/wreckless's runs, Ghidra; clean start (in a gap)"
+ },
+ {
+  "start": "0x00148871",
+  "note": "upstream v0.16 (tail_jump_alias); clean start (in a gap)"
+ },
+ {
+  "start": "0x00148E3F",
+  "note": "upstream v0.16 (tail_jump_alias); clean start (in a gap)"
+ },
+ {
+  "start": "0x00148E80",
+  "note": "upstream v0.16 (tail_jump_alias); clean start (in a gap)"
+ },
+ {
+  "start": "0x00148EA4",
+  "note": "upstream v0.16 (tail_jump_alias); clean start (in a gap)"
+ },
+ {
+  "start": "0x001490C1",
+  "note": "upstream v0.16 (tail_jump_alias); clean start (in a gap)"
+ },
+ {
+  "start": "0x00149696",
+  "note": "upstream v0.16 (tail_jump_alias); clean start (in a gap)"
+ },
+ {
+  "start": "0x0014D474",
+  "note": "upstream v0.16 (tail_jump_alias); clean start (in a gap)"
+ }
+]

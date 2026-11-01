@@ -1,0 +1,7 @@
+{
+  "auto": false,
+  "sites": [
+    {"va": "0x000FE710", "note": "D3D KickOff (sub_000FE6D0): sets 0x100410 bit 16 and spins until the GPU side clears it; the runtime's ack wakes it (kick_cleared). As Double-S.T.E.A.L 2's 0x0012FAB0 (its config/spin_waits.json). The flush's own spin in sub_000FE6A0 (0x000FE6C0) is left: it runs on the executor too, once a mesh (NOTES.md, Mission speed)"}
+  ],
+  "exclude": []
+}
