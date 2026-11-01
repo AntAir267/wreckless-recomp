@@ -827,3 +827,25 @@ B is reverse [verified: play, 2026-10-31]. The other buttons' meanings (README) 
 from Shinya Aoki's 2002 FAQ for the US Xbox version, the only source found; it has no controls section, they're in passing,
 and it says they can't be changed. PS2's layout differs. A scripted run through
 every button showed nothing clear, the car having wedged in trees.
+
+## The release, 2026-11-01
+
+tools/release/linux.sh makes the AppImage, launcher/ is its setup window, both after
+1NSANE: Recompiled's. The download holds no part of the game [verified: every 32-byte
+run of default.xbe searched for in every file: only number tables that unrelated
+libraries have too]. The player's machine translates (33 s, byte-identical to
+regen.sh: GEN_SHA256 is checked) and compiles with the bundled Zig 0.17 (clang 22, not
+the check's clang 20), then links with the runtime, which is built in the Ubuntu 24.04
+container at /src so that nothing names this machine; the script refuses otherwise.
+System libraries a graphics driver also loads are not bundled, nor libstdc++.
+Checked [verified: runs rel_demo, rel_mis, rel_pad; a second machine, rel_t7]: setup from
+the disc image (89-124 s) and from a folder; chk_mis 33.44 ms mean; pad_test; a window
+from the AppImage; RTX 4070 with the validation layer (the known error only); wrong
+inputs; a bare Ubuntu 24.04 translates, compiles and links with nothing installed, then
+says which library it lacks (the desktop's: X11, Wayland, ALSA, PulseAudio, gbm, drm).
+Not checked: a Steam Deck, another distribution, the setup window's pages past the first
+by hand.
+The final rel_mis hit the sound bug in README's known problems: the APU front end stays
+trapped, no interrupt is delivered again, se_frames stops at 75000 (reported to antbox's
+maintainer). 1 of 34 traced runs. Why the other 33 of the same code don't is not known.
+Fixed by the pin above, it should be: a bug this rare can't be shown gone by a few clean runs.

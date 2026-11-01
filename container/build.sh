@@ -7,7 +7,7 @@
 set -euo pipefail
 WR="$(cd "$(dirname "$0")/.." && pwd)"
 RT="${XBOXRECOMP_DIR:-$WR/../antbox}"
-B="$WR/build/deck"
+B="${WR_BUILD_DIR:-$WR/build/deck}"
 # Every time, so an option added since reaches a tree configured before it;
 # cheap once configured.
 cmake -S "$WR" -B "$B" -G Ninja -DCMAKE_BUILD_TYPE=RelWithDebInfo \

@@ -63,10 +63,22 @@ inside an Ubuntu 24.04 container (podman; `container/Containerfile`) into
 settings, this README, the licenses and a VERSION file);
 `WR_BIN=build/deck/bin/wreckless ./package.sh DEST` packages the Deck build.
 
+## Download
+
+The Linux download is an AppImage on the [Releases](https://github.com/AntAir267/wreckless-recomp/releases)
+page. It holds no part of the game. Make it executable and open it: it asks for your
+copy of the US disc (a disc image, or a folder of the disc's files), checks every file,
+translates and compiles the game on your computer, about two minutes once, and from
+then on opens straight into the game. It needs about 2 GB, in `~/.local/share/wreckless`.
+
+It needs glibc 2.38 or newer (Linux from 2023 on), Vulkan, and the desktop's usual
+libraries (X11, Wayland, ALSA, PulseAudio); the setup says if one is missing. There's
+no Windows build yet. To build it yourself instead, see below.
+
 ## Playing
 
-You need your own disc: the Redump image of *Wreckless - The Yakuza
-Missions (USA)*, extracted into `game/Wreckless - The Yakuza Missions/`
+Built by hand, you need your own disc too: *Wreckless - The Yakuza
+Missions (USA)*, its files extracted into `game/Wreckless - The Yakuza Missions/`
 (or anywhere, with `--game-dir`). Saves and the emulated hard disk go to
 `~/.local/share/wreckless` unless `--save-dir` names another folder.
 
@@ -152,6 +164,9 @@ Steam Deck build hasn't been played on a Deck.
 Known problems:
 - The opening cutscene before scenario B ended at once in play sessions; it
   plays in scripted runs.
+- The sound could stop for good during a mission, rarely (once in 34 scripted runs, on
+  a busy machine), with the game playing on. It should be fixed now, but a bug this
+  rare is hard to prove gone: if it happens, please report it. Restarting brings it back.
 
 NOTES.md is the record, ROADMAP.md the plan.
 

@@ -23,3 +23,6 @@ __pycache__/
 
 # Logs
 *.log
+
+# The release's tools (tools/release/linux.sh says what goes here)
+/third_party
