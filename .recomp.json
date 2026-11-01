@@ -1,0 +1,16 @@
+{
+  "game": "Wreckless: The Yakuza Missions",
+  "system": "Xbox",
+  "type": "recomp",
+  "wikidata": "Q8037704",
+  "original": { "region": "USA" },
+  "project": "wreckless-recomp",
+  "status": "in-progress",
+  "started": "2026-10-26",
+  "targets": ["Linux"],
+  "toolchain": "Xboxrecomp",
+  "approach": "The game's x86 code recompiled to C; native kernel replacement; graphics, sound and USB chips still simulated, drawn with Vulkan",
+  "notes": "Early. Missions A-1, A-2 and B-1 played by hand, not yet played to the end. Adds widescreen, higher resolution and a settings page in the game's own OPTIONS screen; any controller works, plugged in at any time. Run so far on an NVIDIA RTX 4070 and a Radeon 890M. Needs your own copy of the game.",
+  "maintainers": [{ "name": "AntAir267", "link": "https://github.com/AntAir267" }],
+  "links": [{ "label": "Toolkit (antbox)", "url": "https://github.com/AntAir267/antbox" }]
+}
